@@ -12,3 +12,7 @@ b=a*d
 [C,T] = balance(a)
 
 E=a*a*a
+
+[p,j]=jordan(a)
+c=p*j*j*j*inv(p)
+d=a*a*a
